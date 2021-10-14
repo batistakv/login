@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="stylecad.css">
+</head>
+<body>
+    <form class="box" action="index.html" method="POST">
+        <header>
+            <h1>registration</h1>
+        </header>
+
+            <div>
+                <label for="name" class="tt"></label>
+                <input type="text" id="nome" required placeholder="Name">
+                <label for="surname" class="tt"></label>
+                <input type="text" id="sobre" required placeholder="Surname">
+            </div>
+            <div>
+                <label for="Email" class="tt"></label>
+                <input type="email" id="email" required placeholder="Email">
+                <label class="tt"></label>
+                <input type="password" id="senha" minlength="8" required placeholder="Password">
+            </div>
+
+        <label id="dw">Which side of the application do you develop?</label>
+
+        <div id="devweb">
+            <input type="radio" id="front" name="devweb" checked>
+            <label for="frontend" class="td">Front-end</label>
+        
+
+        
+            <input type="radio" id="back" name="devweb">
+            <label for="backend" class="td">Back-end</label>
+        
+
+        
+            <input type="radio" id="full" name="devweb">
+            <label for="fullstack" class="td">Fullstack</label>
+        </div>
+
+        <div>
+            <label id="sn">Seniority</label>
+            <select name="" id="">
+                <option value="" disabled selected>Select</option>
+                <option value="trainer">Trainer</option>
+                <option value="junior">Junior</option>
+                <option value="pleno">Pleno</option>
+                <option value="senior">Senior</option>
+            </select>
+        </div>
+        
+        <div>
+            <input type="submit" value="Registration">
+        </div>
+    </form>
+</body>
+</html>
