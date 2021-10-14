@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #293443;
+}
+
+.box {
+    width: 800px;
+    padding: 40px;
+    background: #1A1A1A;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.363)
+}
+
+.box h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363)
+}
+
+.tt {
+    display: inline;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+.td {
+    display: inline;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+#sn {
+    font-weight: 600;
+    padding-top: 20px;
+    display: block;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+
+.box input[type = "email"], input[type = "password"], input[type = "text"] {
+    width: 180px;
+    border: 0;
+    background: none;
+    padding: 10px 14px;
+    margin: 20px auto;
+    border-radius: 24px;
+    border: 3px solid #FFF447;
+    display: inline;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    margin: 10px 15px;
+}
+
+.box input[type = "radio"] {
+    border: 0;
+    background: none;
+    padding: 10px 14px;
+    margin: 20px auto;
+    border-radius: 24px;
+    border: 3px solid #FFF447;
+    display: inline;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.box select {
+    border: 0;
+    background: none;
+    padding: 10px 14px;
+    margin: 20px auto;
+    border-radius: 24px;
+    border: 3px solid #FFF447;
+    display: inline;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.box input[type = "submit"] {
+    border: 0;
+    background: none;
+    border: 2px solid #3EB595;
+    border-radius: 24px;
+    padding: 14px 50px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    outline: none;
+    color: #ffffff;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box option {
+    color: white;
+    background: #293443;
+}
+
+#devweb {
+    display: inline-block;
+}
+
+#dw {
+    display: block;
+    padding-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+.box input[type = "text"]:focus, input[type = "password"]:focus, input[type = "email"]:focus{
+    width: 280px;
+    border-color: #3EB595;
+    box-shadow: rgba(0, 0, 0, 0.363);
+}
+
+.box input[type = "submit"]:hover {
+    background: #3EB595;   
+    box-shadow: rgba(0, 0, 0, 0.363);
+}
